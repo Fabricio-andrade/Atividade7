@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        display: flex;
+        width: 80vw;
+        border: 1px solid black;
+        padding: 5px;
+    }
+    label {
+        margin: 0 5px 0 10px;
+        width: 700px;
+        text-align: right;
+    }
+</style>
+<body>
+    <button onclick="mostrarEstados()">Mostrar Estados</button>
+    <div>
+    <label for="">Norte:</label>
+    <div id="Norte"></div>
+    <label for="">Nordeste:</label>
+    <div id="Nordeste"></div>
+    <label for="">Centro-Oeste:</label>
+    <div id="CentroOeste"></div>
+    <label for="">Sudeste:</label>
+    <div id="Sudeste"></div>
+    <label for="">Sul:</label>
+    <div id="Sul"></div>
+    </div>
+    <div>
+        <label for="">Cidades de SP</label>
+        <div id="sp"></div>
+        <label for="">Cidades de MG</label>
+        <div id="mg"></div>
+    </div>
+    <div>
+        <label for="">Cidades com menos de 50 mil habitantes</label>
+        <div id="hab"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
